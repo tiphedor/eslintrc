@@ -32,6 +32,9 @@
 
 		"react/jsx-curly-spacing": [ 'error', { "when": "always", "children": true } ],
 
+		"react/jsx-closing-bracket-location": ['error', 'after-props'],
+		"react/jsx-max-props-per-line": [ 'error', { "maximum": 1, "when": 'multiline' }],
+		"react/jsx-space-before-closing": [ 'error' ],
 		"react-native/no-unused-styles": 2,
 		"react-native/split-platform-components": 2,
 		"react-native/no-inline-styles": 2,
