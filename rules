@@ -72,5 +72,6 @@
 	'arrow-spacing': [ 'error' ],
 	'linebreak-style': [ 'error', 'unix' ], 'quotes': [ 'error', 'single' ],
 	'semi': [ 'error', 'never' ],
-	'space-infix-ops': [ 'error', { 'int32Hint': false } ]
+	'space-infix-ops': [ 'error', { 'int32Hint': false } ],
+	"no-warning-comments": [ "warn", { "terms": [ "todo", "fixme" ], "location": "anywhere" } ]
 }
