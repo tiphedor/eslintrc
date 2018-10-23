@@ -1,5 +1,5 @@
 //
-// wip, not full
+// wip, not complete, don't use
 //
 
 {
@@ -18,12 +18,31 @@
 		"plugin:vue/recommended"
 	],
 	"rules": {
-  
-  
-    // ...
-
+		
+		// .....
+		// ...
+		// ....
+		
 
 		"vue/html-indent": [ "error", "tab", { "alignAttributesVertically": true } ],
-		"vue/html-self-closing": ["always"]
+		"vue/html-closing-bracket-spacing": ["error", {
+			"startTag": "never",
+			"endTag": "never",
+			"selfClosingTag": "always"
+		}],
+		"vue/attribute-hyphenation" :[2, "never"],
+		"vue/html-closing-bracket-newline": ["error", {
+			"singleline": "never",
+			"multiline": "never"
+		}],
+		"vue/html-quotes": [ "error", "single" ],
+		"vue/html-self-closing": [ "error", {
+			"html": {
+				"void": "always",
+				"normal": "always",
+				"component": "always"
+			}
+		}],
+		"vue/name-property-casing": ["error", "PascalCase"]
 	}
 }
