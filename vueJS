@@ -1,0 +1,29 @@
+//
+// wip, not full
+//
+
+{
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"parserOptions": {
+		"parser": "babel-eslint"
+	},
+	"plugins": [
+		"vue"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:vue/recommended"
+	],
+	"rules": {
+  
+  
+    // ...
+
+
+		"vue/html-indent": [ "error", "tab", { "alignAttributesVertically": true } ],
+		"vue/html-self-closing": ["always"]
+	}
+}
